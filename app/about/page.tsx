@@ -4,8 +4,6 @@ import MyCard from "@/components/card";
 import MyMusicPlayer from "@/components/musiplayer";
 import MyCoverImage from "@/components/coverimage";
 
-import { createContext } from 'react'
-const Context = createContext()
 
 export default function AboutPage() {
   return (
