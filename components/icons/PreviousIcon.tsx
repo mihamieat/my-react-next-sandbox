@@ -1,12 +1,17 @@
 import React from "react";
 
 interface PreviousIconProps {
-    size?: number;
-    width?: number;
-    height?: number;
+  size?: number;
+  width?: number;
+  height?: number;
 }
 
-export const PreviousIcon = ({size = 24, width, height, ...props}: PreviousIconProps) => (
+export const PreviousIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: PreviousIconProps) => (
   <svg
     aria-hidden="true"
     fill="none"

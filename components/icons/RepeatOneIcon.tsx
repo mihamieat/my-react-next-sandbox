@@ -1,13 +1,17 @@
 import React from "react";
 
-
 interface RepeatOneIconProps {
-    size?: number;
-    width?: number;
-    height?: number;
+  size?: number;
+  width?: number;
+  height?: number;
 }
 
-export const RepeatOneIcon = ({size = 24, width, height, ...props}: RepeatOneIconProps) => (
+export const RepeatOneIcon = ({
+  size = 24,
+  width,
+  height,
+  ...props
+}: RepeatOneIconProps) => (
   <svg
     aria-hidden="true"
     fill="none"

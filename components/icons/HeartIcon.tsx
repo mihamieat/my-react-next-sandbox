@@ -1,13 +1,12 @@
 import React from "react";
 
-
 interface HeartIconProps {
-    size?: number;
-    width?: number;
-    height?: number;
-    strokeWidth?: number;
-    fill?: string;
-  }
+  size?: number;
+  width?: number;
+  height?: number;
+  strokeWidth?: number;
+  fill?: string;
+}
 
 export const HeartIcon = ({
   size = 24,
