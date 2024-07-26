@@ -21,8 +21,8 @@ export const siteConfig = {
       href: "/tabs",
     },
     {
-      label: "About",
-      href: "/about",
+      label: "Cards",
+      href: "/cards",
     },
   ],
   navMenuItems: [
