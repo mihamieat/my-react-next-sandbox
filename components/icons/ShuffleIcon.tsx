@@ -1,5 +1,13 @@
 import React from "react";
-export const ShuffleIcon = ({size = 24, width, height, ...props}) => (
+
+
+interface ShuffleIconProps {
+    size?: number;
+    width?: number;
+    height?: number;
+}
+
+export const ShuffleIcon = ({size = 24, width, height, ...props}: ShuffleIconProps) => (
   <svg
     aria-hidden="true"
     fill="none"

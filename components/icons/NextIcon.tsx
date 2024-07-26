@@ -1,5 +1,12 @@
 import React from "react";
-export const NextIcon = ({size = 24, width, height, ...props}) => (
+
+interface NextIconProps {
+    size?: number;
+    width?: number;
+    height?: number;
+}
+
+export const NextIcon = ({size = 24, width, height, ...props}: NextIconProps) => (
   <svg
     aria-hidden="true"
     fill="none"

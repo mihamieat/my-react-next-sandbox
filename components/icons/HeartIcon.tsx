@@ -1,4 +1,14 @@
 import React from "react";
+
+
+interface HeartIconProps {
+    size?: number;
+    width?: number;
+    height?: number;
+    strokeWidth?: number;
+    fill?: string;
+  }
+
 export const HeartIcon = ({
   size = 24,
   width,
@@ -6,7 +16,7 @@ export const HeartIcon = ({
   strokeWidth = 1.5,
   fill = "none",
   ...props
-}) => (
+}: HeartIconProps) => (
   <svg
     aria-hidden="true"
     fill={fill}
